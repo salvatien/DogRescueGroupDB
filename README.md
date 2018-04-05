@@ -1,2 +1,2 @@
 # DogRescueGroupDB
-Web Database App for managing a Dog Rescue Team
+Web Database App for managing a Dog Rescue Team, PHP + PostgreSQL
