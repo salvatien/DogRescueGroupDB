@@ -1,0 +1,1 @@
+<h2> Podaj zakres interesujących Cię dat </h2><ul><li>Od kiedy: <input type= 'date' name='akcjeDatyStart' id='akcjeDatyStart'> </li><li>Do kiedy: <input type= 'date' name='akcjeDatyStop' id='akcjeDatyStop'> </li><li><button id='akcjeDatyWyslij' onclick='szczegolyAkcjeDaty(event)'> Wyślij </button> </li></ul>

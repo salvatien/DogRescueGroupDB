@@ -1,0 +1,92 @@
+
+li {list-style: none;}
+
+nav.tab button {
+    float: left;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.tabdivs {
+    display: none;
+    height: 5%px;
+    width: 90%;
+    overflow: auto;
+    clear: both;
+    background-color: AliceBlue;
+    border: 1px solid black;
+    padding: 14px 16px;
+    font-size: 15px;
+    	
+}
+#przewodnicy {
+    display: block;
+}
+
+#show {
+    height: 90%;
+    width: 90%;
+    overflow: auto;
+    clear: both;
+    background-color: AliceBlue;
+    border: 1px solid black;
+    padding: 14px 16px;
+    font-size: 15px;
+
+}
+
+.ukryte {
+	display: none;
+}
+
+#ukryteID {
+	display: none;
+}
+
+#kolejneUkryteID{
+	display:none;
+}
+
+#ukryteIDD {
+	display: none;
+}
+#kolejneUkryteIDD {
+	display: none;
+}
+
+
+#show table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#show table td, #show table th {
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+#show table tr:nth-child(odd){background-color: Beige;}
+
+#show table tr:hover {background-color: LightBlue;}
+
+#show table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: LightSeaGreen ;
+    color: white;
+}
+
+
+
+
+
+#divContainer {
+    clear: both;
+    height: 90%;
+}

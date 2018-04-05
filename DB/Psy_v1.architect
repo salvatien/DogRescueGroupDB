@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.8">
+ <project-name>Psy_v1</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="65097a2c-23aa-4ea8-96cb-d0aba7613492" name="Psy" objectType="TABLE" physicalName="Psy" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="a3c01f3c-22ca-4b2f-8b52-f0d74875af2f" autoIncrement="true" autoIncrementSequenceName="Psy_ID_Psa_seq" defaultValue="" name="ID_Psa" nullable="0" physicalName="ID_Psa" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="afe155cb-b9f4-4f35-8702-b69ffe29182e" autoIncrement="false" autoIncrementSequenceName="Psy_Imie_seq" defaultValue="" name="Imie" nullable="0" physicalName="Imie" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="330d5b7a-3c9f-4f9f-9f4a-8ae7936ca9b3" autoIncrement="false" autoIncrementSequenceName="Psy_Data_Urodzenia_seq" defaultValue="" name="Data_Urodzenia" nullable="0" physicalName="Data_Urodzenia" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="3a70592f-90f7-471b-9fbc-3641972e037c" autoIncrement="false" autoIncrementSequenceName="Psy_Rasa_seq" defaultValue="" name="Rasa" nullable="0" physicalName="Rasa" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL6" populated="true" UUID="c059faf4-d8c4-4f64-a7ca-0007cb26acfb" autoIncrement="false" autoIncrementSequenceName="Psy_Poziom_seq" defaultValue="" name="Poziom" nullable="0" physicalName="Poziom" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL7" populated="true" UUID="31fc4f60-5a17-4ff2-9777-fc60bc1da78c" autoIncrement="false" autoIncrementSequenceName="Psy_Tryb_Pracy_seq" defaultValue="" name="Tryb_Pracy" nullable="0" physicalName="Tryb_Pracy" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL8" populated="true" UUID="bec9f71e-f4d9-4130-8b53-fbc8ad323783" autoIncrement="false" autoIncrementSequenceName="Psy_Uwagi_seq" defaultValue="" name="Uwagi" nullable="1" physicalName="Uwagi" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="33ccb520-ea48-4543-a286-b774f332bddc" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_ID_Przewodnika_seq" defaultValue="" name="ID_Przewodnika" nullable="0" physicalName="ID_Przewodnika" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX10" populated="true" UUID="b3e63bfc-3814-46e1-ac53-1deaeac49554" clustered="false" name="Psy_pk" physicalName="psy_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC11" populated="true" UUID="baf40b0a-dad1-4640-b46d-a5a663af8811" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="ID_Psa" physicalName="ID_Psa" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB12" populated="true" UUID="634698bb-b6e1-4a53-a86e-35903f6986d9" name="Przewodnicy" objectType="TABLE" physicalName="Przewodnicy" >
+   <remarks></remarks>
+   <folder id="FOLTAB121" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL13" populated="true" UUID="7188353e-b310-40e6-9be7-1f5c5a343c45" autoIncrement="true" autoIncrementSequenceName="Przewodnicy_ID_Przewodnika_seq_1" defaultValue="" name="ID_Przewodnika" nullable="0" physicalName="ID_Przewodnika" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL14" populated="true" UUID="a68273a5-be4d-4d0b-aa4c-6faf8dc9dd91" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Imie_seq" defaultValue="" name="Imie" nullable="0" physicalName="Imie" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL15" populated="true" UUID="8f3acf2f-193c-4825-9cc6-571bd0ca651f" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Nazwisko_seq" defaultValue="" name="Nazwisko" nullable="0" physicalName="Nazwisko" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL16" populated="true" UUID="212de9f5-3aea-409c-a4e2-5a0c78f429c3" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Data_Urodzenia_seq" defaultValue="" name="Data_Urodzenia" nullable="0" physicalName="Data_Urodzenia" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL17" populated="true" UUID="bca5286c-79b4-4118-9890-8cbf4b0be931" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Adres_seq" defaultValue="" name="Adres" nullable="0" physicalName="Adres" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL18" populated="true" UUID="db14cd53-a09d-4bfc-999e-af82ecc0593f" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Miasto_seq" defaultValue="" name="Miasto" nullable="0" physicalName="Miasto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="fe4b482c-eb3f-4409-a309-d57cf8ef3c0d" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Telefon_seq" defaultValue="" name="Telefon" nullable="0" physicalName="Telefon" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL20" populated="true" UUID="9a53d559-9a00-4fd4-98be-fd36ef89e970" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Samochod_seq" defaultValue="" name="Samochod" nullable="0" physicalName="Samochod" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
+     <remarks></remarks>
+    </column>
+    <column id="COL21" populated="true" UUID="bbbdd823-3fda-43a6-9f97-782fa227d15d" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Kondycja_seq" defaultValue="" name="Kondycja" nullable="0" physicalName="Kondycja" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL22" populated="true" UUID="abf97ce1-3928-49b1-9e64-874b23dabc41" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_Uwagi_seq" defaultValue="" name="Uwagi" nullable="1" physicalName="Uwagi" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB123" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB122" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB124" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX23" populated="true" UUID="54109f9e-ff07-44ff-9bcf-a955390abe09" clustered="false" name="Przewodnicy_pk" physicalName="przewodnicy_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC24" populated="true" UUID="4a564775-3c70-41f1-9054-82c7e66c287f" ascendingOrDescending="UNSPECIFIED" column-ref="COL13" name="ID_Przewodnika" physicalName="ID_Przewodnika" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB25" populated="true" UUID="89de18cb-6316-4d86-a220-8a04adc636b1" name="Pozoranci" objectType="TABLE" physicalName="Pozoranci" >
+   <remarks></remarks>
+   <folder id="FOLTAB251" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL26" populated="true" UUID="ad63a64f-df19-48d5-a115-6e319ae679ae" autoIncrement="true" autoIncrementSequenceName="Pozoranci_ID_Pozoranta_seq" defaultValue="" name="ID_Pozoranta" nullable="0" physicalName="ID_Pozoranta" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL27" populated="true" UUID="b7efea6d-480f-4688-b938-49b6670ce03a" autoIncrement="false" autoIncrementSequenceName="Pozoranci_Imie_seq" defaultValue="" name="Imie" nullable="0" physicalName="Imie" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL28" populated="true" UUID="d537112f-eb19-4748-8bec-e436166bf3a5" autoIncrement="false" autoIncrementSequenceName="Pozoranci_Nazwisko_seq" defaultValue="" name="Nazwisko" nullable="0" physicalName="Nazwisko" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL29" populated="true" UUID="9666725d-7873-4a72-b194-f58af78c141c" autoIncrement="false" autoIncrementSequenceName="Pozoranci_Data_Urodzenia_seq" defaultValue="" name="Data_Urodzenia" nullable="0" physicalName="Data_Urodzenia" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL30" populated="true" UUID="9eac7100-9eac-40c3-a31b-7957b0995993" autoIncrement="false" autoIncrementSequenceName="Pozoranci_Adres_seq" defaultValue="" name="Adres" nullable="0" physicalName="Adres" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL31" populated="true" UUID="193e99cc-86f2-4feb-b1e5-82f0f5d85246" autoIncrement="false" autoIncrementSequenceName="Pozoranci_Telefon_seq" defaultValue="" name="Telefon" nullable="0" physicalName="Telefon" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL32" populated="true" UUID="095d2beb-eb52-4014-9372-7941aaf76788" autoIncrement="false" autoIncrementSequenceName="Pozoranci_Kondycja_seq" defaultValue="" name="Kondycja" nullable="0" physicalName="Kondycja" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB253" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB252" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB254" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX33" populated="true" UUID="f85a92f3-9639-45d6-b62a-a7c26938579b" clustered="false" name="Pozoranci_pk" physicalName="pozoranci_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC34" populated="true" UUID="08e6c9b8-e85b-4e4b-991b-10762f46e7c6" ascendingOrDescending="UNSPECIFIED" column-ref="COL26" name="ID_Pozoranta" physicalName="ID_Pozoranta" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB35" populated="true" UUID="1fea7e14-0c2b-496e-bf11-ae3240d15a68" name="Uprawnienia" objectType="TABLE" physicalName="Uprawnienia" >
+   <remarks></remarks>
+   <folder id="FOLTAB351" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL36" populated="true" UUID="9ffa1d1d-6213-45ae-8eeb-2bb98ce41c9d" autoIncrement="true" autoIncrementSequenceName="Uprawnienia_ID_Certyfikatu_seq" defaultValue="" name="ID_Certyfikatu" nullable="0" physicalName="ID_Certyfikatu" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL37" populated="true" UUID="22aef8b0-8a35-4dac-9771-59b2d92bf9c8" autoIncrement="false" autoIncrementSequenceName="Uprawnienia_Nazwa_seq" defaultValue="" name="Nazwa" nullable="0" physicalName="Nazwa" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL38" populated="true" UUID="41dbe189-69e7-4883-9e4a-ef887f8e239b" autoIncrement="false" autoIncrementSequenceName="Uprawnienia_Poziom_seq" defaultValue="" name="Poziom" nullable="0" physicalName="Poziom" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL39" populated="true" UUID="557d7dd4-b7a2-4ac1-8c6f-398a49c3f783" autoIncrement="false" autoIncrementSequenceName="Uprawnienia_Opis_seq" defaultValue="" name="Opis" nullable="0" physicalName="Opis" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB353" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB352" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB354" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX40" populated="true" UUID="aa56c2bc-5050-4de5-8bfd-71590f96f810" clustered="false" name="Uprawnienia_pk" physicalName="uprawnienia_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC41" populated="true" UUID="cee52f30-5ce9-4049-83db-fdbecb70e1a1" ascendingOrDescending="UNSPECIFIED" column-ref="COL36" name="ID_Certyfikatu" physicalName="ID_Certyfikatu" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB42" populated="true" UUID="f6088e90-9ffa-43da-834a-c61585fb7f23" name="Inne_Grupy" objectType="TABLE" physicalName="Inne_Grupy" >
+   <remarks></remarks>
+   <folder id="FOLTAB421" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL43" populated="true" UUID="3634dceb-943f-4cac-876b-a21fd8b22da0" autoIncrement="true" autoIncrementSequenceName="Inne_Grupy_ID_Grupy_seq" defaultValue="" name="ID_Grupy" nullable="0" physicalName="ID_Grupy" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL44" populated="true" UUID="5bbd7e01-d9f0-4da4-b617-070565dd5e9a" autoIncrement="false" autoIncrementSequenceName="Inne_Grupy_Nazwa_seq" defaultValue="" name="Nazwa" nullable="0" physicalName="Nazwa" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL45" populated="true" UUID="722be76c-faad-4b58-a018-5b037566588e" autoIncrement="false" autoIncrementSequenceName="Inne_Grupy_Liczebnosc_seq" defaultValue="" name="Liczebnosc" nullable="0" physicalName="Liczebnosc" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL46" populated="true" UUID="83e2ac2c-a777-4fc0-a8cd-c8bf8bf5a3d3" autoIncrement="false" autoIncrementSequenceName="Inne_Grupy_Imie_Szefa_seq" defaultValue="" name="Imie_Szefa" nullable="0" physicalName="Imie_Szefa" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL47" populated="true" UUID="2f2e637d-18f9-4971-8698-4e89f8897cbc" autoIncrement="false" autoIncrementSequenceName="Inne_Grupy_Nazwisko_Szefa_seq" defaultValue="" name="Nazwisko_Szefa" nullable="0" physicalName="Nazwisko_Szefa" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL48" populated="true" UUID="e57ef0aa-e609-4c41-8eda-74ae203fca09" autoIncrement="false" autoIncrementSequenceName="Inne_Grupy_Telefon_Szefa_seq" defaultValue="" name="Telefon_Szefa" nullable="0" physicalName="Telefon_Szefa" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB423" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB422" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB424" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX49" populated="true" UUID="7dfd19a8-6c56-4f1e-a378-56030d807a7f" clustered="false" name="Inne_Grupy_pk" physicalName="inne_grupy_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC50" populated="true" UUID="5d388f2b-ee9b-4817-8437-f22e7f47c359" ascendingOrDescending="UNSPECIFIED" column-ref="COL43" name="ID_Grupy" physicalName="ID_Grupy" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB51" populated="true" UUID="3f3b6492-7edc-48ee-9772-67c5cc80f5e3" name="Akcje" objectType="TABLE" physicalName="Akcje" >
+   <remarks></remarks>
+   <folder id="FOLTAB511" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL52" populated="true" UUID="fe7712c1-8b24-417d-99d1-0b6c060f29b1" autoIncrement="true" autoIncrementSequenceName="Akcje_ID_Akcji_seq" defaultValue="" name="ID_Akcji" nullable="0" physicalName="ID_Akcji" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL53" populated="true" UUID="a16af0b2-7b1c-4b94-bc6f-8fdbc9db8819" autoIncrement="false" autoIncrementSequenceName="Akcje_Data_seq" defaultValue="" name="Data" nullable="0" physicalName="Data" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL54" populated="true" UUID="71074bf4-aa10-47f9-abf0-7bb1cf59c186" autoIncrement="false" autoIncrementSequenceName="Akcje_Adres_seq" defaultValue="" name="Adres" nullable="0" physicalName="Adres" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL55" populated="true" UUID="c225157d-f1f7-40d2-8e56-2fd40e965525" autoIncrement="false" autoIncrementSequenceName="Akcje_Miasto_seq" defaultValue="" name="Miasto" nullable="0" physicalName="Miasto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL56" populated="true" UUID="312987a7-b87b-4ce9-ba6e-d63832f202f9" autoIncrement="false" autoIncrementSequenceName="Akcje_Imie_Poduszkiwanego_seq" defaultValue="" name="Imie_Poszukiwanego" nullable="0" physicalName="Imie_Poduszkiwanego" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL57" populated="true" UUID="d0421904-a9d2-4362-83a5-34fb73cb5ad7" autoIncrement="false" autoIncrementSequenceName="Akcje_Nazwisko_Poszukiwanego_seq" defaultValue="" name="Nazwisko_Poszukiwanego" nullable="0" physicalName="Nazwisko_Poszukiwanego" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL58" populated="true" UUID="e959c5d7-9f0e-4ad0-adab-1b16cb14b6af" autoIncrement="false" autoIncrementSequenceName="Akcje_Zleceniodawca_seq" defaultValue="" name="Zleceniodawca" nullable="0" physicalName="Zleceniodawca" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL59" populated="true" UUID="8a8e99d4-79bc-408c-99c6-5d159f602421" autoIncrement="false" autoIncrementSequenceName="Akcje_Czy_Odnaleziono_seq" defaultValue="" name="Czy_Odnaleziono" nullable="0" physicalName="Czy_Odnaleziono" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
+     <remarks></remarks>
+    </column>
+    <column id="COL60" populated="true" UUID="a24cb85d-909d-4207-ac23-63fae598ff7e" autoIncrement="false" autoIncrementSequenceName="Akcje_Ile_Psow_seq" defaultValue="" name="Ile_Psow" nullable="0" physicalName="Ile_Psow" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL61" populated="true" UUID="3d0f3da9-3d40-4b27-bfbc-cbc68fb6982c" autoIncrement="false" autoIncrementSequenceName="Akcje_Uwagi_seq" defaultValue="" name="Uwagi" nullable="1" physicalName="Uwagi" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB513" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB512" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB514" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX62" populated="true" UUID="14ab974e-d54f-4200-b516-c423abccc5cf" clustered="false" name="Akcje_pk" physicalName="akcje_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC63" populated="true" UUID="01250dbd-f3c8-4665-814e-9d1959f4c706" ascendingOrDescending="UNSPECIFIED" column-ref="COL52" name="ID_Akcji" physicalName="ID_Akcji" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB64" populated="true" UUID="db754565-c9e2-425b-bc59-2ab8c311db29" name="Treningi" objectType="TABLE" physicalName="Treningi" >
+   <remarks></remarks>
+   <folder id="FOLTAB641" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL65" populated="true" UUID="974176ff-ffee-49ed-a602-d3504c4a6e93" autoIncrement="true" autoIncrementSequenceName="Treningi_ID_Treningu_seq" defaultValue="" name="ID_Treningu" nullable="0" physicalName="ID_Treningu" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL66" populated="true" UUID="6dc0840a-71de-4a4a-a577-e96f42c68615" autoIncrement="false" autoIncrementSequenceName="Treningi_Termin_seq" defaultValue="" name="Termin" nullable="0" physicalName="Termin" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+     <remarks></remarks>
+    </column>
+    <column id="COL67" populated="true" UUID="6c179d44-e49a-4895-b35c-5526996b3667" autoIncrement="false" autoIncrementSequenceName="Treningi_Adres_seq" defaultValue="" name="Adres" nullable="0" physicalName="Adres" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL68" populated="true" UUID="0620cbeb-e1f7-429b-8775-2afc5d678bc9" autoIncrement="false" autoIncrementSequenceName="Treningi_Miasto_seq" defaultValue="" name="Miasto" nullable="0" physicalName="Miasto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL69" populated="true" UUID="2b5d5d59-61fe-4404-9103-79ecbf54c927" autoIncrement="false" autoIncrementSequenceName="Treningi_Uwagi_seq" defaultValue="" name="Uwagi" nullable="1" physicalName="Uwagi" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB643" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB642" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB644" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX70" populated="true" UUID="9f9b3e1a-bb8a-47b1-ac5e-31898b70adee" clustered="false" name="Treningi_pk" physicalName="treningi_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC71" populated="true" UUID="0b0ef316-09b3-4661-9814-2ea75550e478" ascendingOrDescending="UNSPECIFIED" column-ref="COL65" name="ID_Treningu" physicalName="ID_Treningu" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB72" populated="true" UUID="03f2a469-b39e-4cdf-85be-4f2952373d07" name="Trening_Psa" objectType="TABLE" physicalName="Trening_Psa" >
+   <remarks></remarks>
+   <folder id="FOLTAB721" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL73" populated="true" UUID="4878bafc-0e69-49c3-a75d-8d56e2a98911" autoIncrement="false" autoIncrementSequenceName="Psy_ID_Psa_seq_1" defaultValue="" name="ID_Psa" nullable="0" physicalName="ID_Psa" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL74" populated="true" UUID="57ccf373-bbc1-413e-acb9-ef77ed77682d" autoIncrement="false" autoIncrementSequenceName="Treningi_ID_Treningu_seq_1" defaultValue="" name="ID_Treningu" nullable="0" physicalName="ID_Treningu" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL75" populated="true" UUID="519adcba-3f6d-48f8-bb00-5d77d8924cc6" autoIncrement="false" autoIncrementSequenceName="Trening_Psa_Slad_seq" defaultValue="" name="Slad" nullable="0" physicalName="Slad" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL76" populated="true" UUID="5138403c-e431-411f-9b45-79df2ea98c53" autoIncrement="false" autoIncrementSequenceName="Pozoranci_ID_Pozoranta_seq_1" defaultValue="" name="ID_Pozoranta" nullable="0" physicalName="ID_Pozoranta" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB723" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB722" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB724" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX77" populated="true" UUID="d9c3b4a1-6ca8-44f6-999a-f704222ee743" clustered="false" name="Trening_Psa_pk" physicalName="trening_psa_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC78" populated="true" UUID="87e0922c-cfaf-43f0-8259-1aab66d21f14" ascendingOrDescending="UNSPECIFIED" column-ref="COL73" name="ID_Psa" physicalName="ID_Psa" />
+     <index-column id="IDC79" populated="true" UUID="abd3c4bb-a150-4b7a-a4ab-70d1e3ca6f95" ascendingOrDescending="UNSPECIFIED" column-ref="COL74" name="ID_Treningu" physicalName="ID_Treningu" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB80" populated="true" UUID="081bd55b-37dd-40a4-b630-ce0e73c4f452" name="psy_akcje" objectType="TABLE" physicalName="psy_akcje" >
+   <remarks></remarks>
+   <folder id="FOLTAB801" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL81" populated="true" UUID="2e16cd7a-8e60-4dcb-9a16-0bd0164ab0ed" autoIncrement="false" autoIncrementSequenceName="Psy_ID_Psa_seq_2" defaultValue="" name="ID_Psa" nullable="0" physicalName="ID_Psa" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL82" populated="true" UUID="503ebc02-8c22-44dc-a5b3-9a3575e61b11" autoIncrement="false" autoIncrementSequenceName="Akcje_ID_Akcji_seq_1" defaultValue="" name="ID_Akcji" nullable="0" physicalName="ID_Akcji" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL83" populated="true" UUID="dc4a0924-f803-4d91-92bd-cccc0b0c87a1" autoIncrement="false" autoIncrementSequenceName="psy_akcje_Czy_pies_odnalazl_seq" defaultValue="" name="Czy_pies_odnalazl" nullable="0" physicalName="Czy_pies_odnalazl" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB803" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB802" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB804" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX84" populated="true" UUID="6151e161-291e-4782-80d1-16ad24cf3929" clustered="false" name="psy_akcje_pk" physicalName="psy_akcje_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC85" populated="true" UUID="05b44138-36a2-46a3-b11f-7f1332335023" ascendingOrDescending="UNSPECIFIED" column-ref="COL81" name="ID_Psa" physicalName="ID_Psa" />
+     <index-column id="IDC86" populated="true" UUID="c21105ab-32b8-4fec-9ad6-0a6970d21080" ascendingOrDescending="UNSPECIFIED" column-ref="COL82" name="ID_Akcji" physicalName="ID_Akcji" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB87" populated="true" UUID="716a653f-8390-4414-84e4-3d2e58fafb7d" name="psy_uprawnienia" objectType="TABLE" physicalName="psy_uprawnienia" >
+   <remarks></remarks>
+   <folder id="FOLTAB871" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL88" populated="true" UUID="8cceaae1-fee5-4daf-83d8-755551814652" autoIncrement="false" autoIncrementSequenceName="Uprawnienia_ID_Certyfikatu_seq_1" defaultValue="" name="ID_Certyfikatu" nullable="0" physicalName="ID_Certyfikatu" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL89" populated="true" UUID="bac5fec7-a837-48ae-af84-1fa4a3fc3ec9" autoIncrement="false" autoIncrementSequenceName="Psy_ID_Psa_seq_3" defaultValue="" name="ID_Psa" nullable="0" physicalName="ID_Psa" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL90" populated="true" UUID="c8c27dcb-e039-4c9f-af22-07ab88f79d98" autoIncrement="false" autoIncrementSequenceName="Uprawnienia_Wazny_Do_seq" defaultValue="" name="Wazny_Do" nullable="0" physicalName="Wazny_Do" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB873" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB872" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB874" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX91" populated="true" UUID="d7142c12-1fad-4da9-ada8-bba07fbd5abe" clustered="false" name="psy_uprawnienia_pk" physicalName="psy_uprawnienia_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC92" populated="true" UUID="6192dd2a-2088-4401-818d-54acda6a4dd3" ascendingOrDescending="UNSPECIFIED" column-ref="COL88" name="ID_Certyfikatu" physicalName="ID_Certyfikatu" />
+     <index-column id="IDC93" populated="true" UUID="e97114f9-bb43-4540-b52b-065b3c93cfed" ascendingOrDescending="UNSPECIFIED" column-ref="COL89" name="ID_Psa" physicalName="ID_Psa" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB94" populated="true" UUID="2367a8b5-21d7-48aa-a593-c7a95d43ab5f" name="treningi_pozoranci" objectType="TABLE" physicalName="treningi_pozoranci" >
+   <remarks></remarks>
+   <folder id="FOLTAB941" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL95" populated="true" UUID="627f4870-ae94-4108-a7ad-683f7630eeea" autoIncrement="false" autoIncrementSequenceName="Pozoranci_ID_Pozoranta_seq_1_1" defaultValue="" name="ID_Pozoranta" nullable="0" physicalName="ID_Pozoranta" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL96" populated="true" UUID="350188cb-909b-4cd8-881d-a8649b4c2d39" autoIncrement="false" autoIncrementSequenceName="Treningi_ID_Treningu_seq_2" defaultValue="" name="ID_Treningu" nullable="0" physicalName="ID_Treningu" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB943" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB942" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB944" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX97" populated="true" UUID="bc782477-a493-4888-b065-b0923e3d283b" clustered="false" name="treningi_pozoranci_pk" physicalName="treningi_pozoranci_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC98" populated="true" UUID="fd5a3952-a6e9-4851-9366-2ad310e46913" ascendingOrDescending="UNSPECIFIED" column-ref="COL95" name="ID_Pozoranta" physicalName="ID_Pozoranta" />
+     <index-column id="IDC99" populated="true" UUID="e303e650-31d7-48aa-88c9-6ad6724a0dd7" ascendingOrDescending="UNSPECIFIED" column-ref="COL96" name="ID_Treningu" physicalName="ID_Treningu" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB100" populated="true" UUID="6d7fbd33-8ab1-4627-865d-dcb284843391" name="Rola" objectType="TABLE" physicalName="Rola" >
+   <remarks></remarks>
+   <folder id="FOLTAB1001" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL101" populated="true" UUID="49f4c9df-ffc7-4fda-b9d0-b68f3c8a2d09" autoIncrement="true" autoIncrementSequenceName="Rola_ID_Roli_seq" defaultValue="" name="ID_Roli" nullable="0" physicalName="ID_Roli" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL102" populated="true" UUID="0d776965-f0c9-4d33-91e8-0642c2a707bc" autoIncrement="false" autoIncrementSequenceName="Rola_Nazwa_seq" defaultValue="" name="Nazwa" nullable="0" physicalName="Nazwa" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL103" populated="true" UUID="af1b5b42-c80a-429b-8bd3-dad87aef9af8" autoIncrement="false" autoIncrementSequenceName="Przewodnicy_ID_Przewodnika_seq_1_1" defaultValue="" name="ID_Przewodnika" nullable="0" physicalName="ID_Przewodnika" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB1003" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB1002" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB1004" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX104" populated="true" UUID="9a0c3d8f-fff1-40c0-8a8d-85016e252c34" clustered="false" name="Rola_pk" physicalName="rola_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC105" populated="true" UUID="a27abbf5-27db-4a1f-b41c-7beca995cb01" ascendingOrDescending="UNSPECIFIED" column-ref="COL101" name="ID_Roli" physicalName="ID_Roli" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL106" populated="true" UUID="34ae2ad0-b111-40e1-ab6f-cef858b3ae29" deferrability="7" deleteRule="0" fk-table-ref="TAB72" fkCardinality="7" identifying="true" name="Psy_Trening_Psa_fk" physicalName="psy_trening_psa_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP107" populated="true" UUID="1b5721a9-1106-4f83-b906-20c21616aa09" fk-column-ref="COL73" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL108" populated="true" UUID="6161e077-afde-4588-9572-f297eb502d56" deferrability="7" deleteRule="0" fk-table-ref="TAB80" fkCardinality="7" identifying="true" name="Psy_psy_akcje_fk" physicalName="psy_psy_akcje_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP109" populated="true" UUID="82e5692c-4dbc-4dae-9ee1-abf8c07ad96a" fk-column-ref="COL81" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL110" populated="true" UUID="fc063540-beb4-4ea0-a33b-f10944d456e9" deferrability="7" deleteRule="0" fk-table-ref="TAB87" fkCardinality="7" identifying="true" name="Psy_psy_uprawnienia_fk" physicalName="psy_psy_uprawnienia_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP111" populated="true" UUID="01541ad1-80a7-4aed-9050-9e0417d6bd51" fk-column-ref="COL89" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL112" populated="true" UUID="d0498051-a53a-475a-b916-f9bd90615ea4" deferrability="7" deleteRule="0" fk-table-ref="TAB1" fkCardinality="7" identifying="false" name="Przewodnicy_Psy_fk" physicalName="przewodnicy_psy_fk" pk-table-ref="TAB12" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP113" populated="true" UUID="7be29d20-c466-4b1c-a2bb-6d4a259a3c0c" fk-column-ref="COL9" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL13" />
+   </relationship>
+   <relationship id="REL114" populated="true" UUID="6d095325-2ba7-4d1d-8fd6-4ba31b5790c3" deferrability="7" deleteRule="0" fk-table-ref="TAB100" fkCardinality="7" identifying="false" name="Przewodnicy_Rola_fk" physicalName="przewodnicy_rola_fk" pk-table-ref="TAB12" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP115" populated="true" UUID="586a0b00-0f42-45ea-b09a-db03a6e22626" fk-column-ref="COL103" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL13" />
+   </relationship>
+   <relationship id="REL116" populated="true" UUID="4424754c-278f-4e4b-abb8-da15e0689a08" deferrability="7" deleteRule="0" fk-table-ref="TAB94" fkCardinality="7" identifying="true" name="Pozoranci_treningi_pozoranci_fk" physicalName="pozoranci_treningi_pozoranci_fk" pk-table-ref="TAB25" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP117" populated="true" UUID="64a70598-340f-4464-b4e8-66e1a46606f3" fk-column-ref="COL95" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL26" />
+   </relationship>
+   <relationship id="REL118" populated="true" UUID="d6bb9d2b-929a-4c8c-b4b9-e91a2cdf8961" deferrability="6" deleteRule="0" fk-table-ref="TAB72" fkCardinality="7" identifying="false" name="Pozoranci_Trening_Psa_fk" physicalName="pozoranci_trening_psa_fk" pk-table-ref="TAB25" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP119" populated="true" UUID="b48a742a-b069-4bea-a8d8-39aada9de217" fk-column-ref="COL76" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL26" />
+   </relationship>
+   <relationship id="REL120" populated="true" UUID="452d3af2-b39e-4316-965b-4375f47bed58" deferrability="7" deleteRule="0" fk-table-ref="TAB87" fkCardinality="7" identifying="true" name="Uprawnienia_psy_uprawnienia_fk" physicalName="uprawnienia_psy_uprawnienia_fk" pk-table-ref="TAB35" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP121" populated="true" UUID="2a169025-367e-466d-8255-193e207dbc34" fk-column-ref="COL88" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL36" />
+   </relationship>
+   <relationship id="REL122" populated="true" UUID="5c038faf-be1e-47c9-9493-1ba869f0eead" deferrability="7" deleteRule="0" fk-table-ref="TAB80" fkCardinality="7" identifying="true" name="Akcje_psy_akcje_fk" physicalName="akcje_psy_akcje_fk" pk-table-ref="TAB51" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP123" populated="true" UUID="330e9c37-88cd-4cde-8e60-1cc546d26b7d" fk-column-ref="COL82" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL52" />
+   </relationship>
+   <relationship id="REL124" populated="true" UUID="0d041b68-c20d-49f9-8ca4-14b5d56c8c4e" deferrability="7" deleteRule="0" fk-table-ref="TAB72" fkCardinality="7" identifying="true" name="Treningi_Trening_Psa_fk" physicalName="treningi_trening_psa_fk" pk-table-ref="TAB64" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP125" populated="true" UUID="6f988494-2fcb-47a3-949a-7dfc4153b9a0" fk-column-ref="COL74" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL65" />
+   </relationship>
+   <relationship id="REL126" populated="true" UUID="e68928d0-0868-46ba-aa6a-3e8bccc34401" deferrability="7" deleteRule="0" fk-table-ref="TAB94" fkCardinality="7" identifying="true" name="Treningi_treningi_pozoranci_fk" physicalName="treningi_treningi_pozoranci_fk" pk-table-ref="TAB64" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP127" populated="true" UUID="a0d83dae-1764-4823-a2e7-8647225d018b" fk-column-ref="COL96" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL65" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="Psy"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="0.7940443213296399" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="431" y="375" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB12" x="773" y="300" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB25" x="788" y="525" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB35" x="64" y="247" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB42" x="96" y="79" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB51" x="404" y="71" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB64" x="76" y="554" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB72" x="434" y="554" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB80" x="418" y="259" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB87" x="46" y="398" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB94" x="426" y="662" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB100" x="773" y="113" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL112" pkConnection="0.6181818181818182" fkConnection="0.24444444444444444" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL106" pkConnection="0.3269961977186312" fkConnection="0.75" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL124" pkConnection="0.45714285714285713" fkConnection="0.64" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL108" pkConnection="0.7313432835820896" fkConnection="0.4107142857142857" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL122" pkConnection="0.41114982578397213" fkConnection="0.7044534412955465" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL120" pkConnection="0.3852140077821012" fkConnection="0.44150943396226416" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL110" pkConnection="0.5851851851851851" fkConnection="0.75" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL116" pkConnection="0.7777777777777778" fkConnection="0.36666666666666664" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL126" pkConnection="0.3373493975903614" fkConnection="0.3333333333333333" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="36"/>
+  <table-link relationship-ref="REL114" pkConnection="0.4964788732394366" fkConnection="0.49823321554770317" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL118" pkConnection="0.5111111111111111" fkConnection="0.4666666666666667" rLineColor="0x333333" pkLabelText="" fkLabelText="" orientation="18"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>

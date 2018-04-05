@@ -1,0 +1,1 @@
+<h2> Podaj nazwę grupy, której szukasz, lub nazwisko jej szefa </h2><ul><li>Nazwa: <input type= 'text' name='nazwaGrupy' id='grupyGrupaNazwa'> </li><li>Nazwisko szefa: <input type= 'text' name='nazwiskoSzefaGrupy' id='grupyGrupaNazwiskoSzefa'> </li><li><button id='grupyGrupaWyslij' onclick='szczegolyGrupyGrupa(event)'> Wyślij </button> </li></ul>
